@@ -1,5 +1,29 @@
 .header .active {
   font-weight: 900; }
 
+.image-preview {
+  display: inline-block;
+  position: relative; }
+  .image-preview img {
+    width: 200px;
+    height: 200px;
+    display: inline-block; }
+  .image-preview video {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    background-color: black; }
+  .image-preview .glyphicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    opacity: .5;
+    color: white; }
+
 .black {
   color: black; }
+
+.topic-detail {
+  text-align: center; }

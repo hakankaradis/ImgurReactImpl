@@ -25,7 +25,7 @@ module.exports = React.createClass({
 		Actions.getImages(nextProps.params.id);
 	},
 	render: function () {
-		return <div> I am detail {this.props.params.id} {this.renderImages()}</div>
+		return <div className="topic-detail"> {this.renderImages()}</div>
 	},
 	renderImages: function() {
 		return this.state.images.slice(0,20).map(function(image){
